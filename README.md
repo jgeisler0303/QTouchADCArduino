@@ -1,4 +1,10 @@
+# Attention
 This very simple sketch shows how to implement a so called *QTouch ADC* one wire touch button.
+I always meant to turn it into a more user-friendly library but never did.
+Fortunately martin2250 did write a library that seems to work very well and even has some advantages over my approach. You can find this lib [here](http://playground.arduino.cc/Code/ADCTouch).
+
+Please use martin2250's library and concider this code as a relic.
+
 
 # Intro
 *QTouch ADC* is a technology by Atmel Corporation offered in form of a free precompiled library but unfortunately  currently only for the *attiny 40*. QTouchADC touch measurement is extremely **fast, robust to EMI, reliable** touch detection, very very easy hardware setup and most importantly: only one pin per touch button or three per small slider or wheel. The pin needs to be an analog input pin. So, on the Uno you have *6 channels* and eight on a Mega (I believe), leaving all the digital pins for other cool stuff!!! This is in contrast to the standard QTouch where two (digital) pins are needed per channel.  
