@@ -1,9 +1,9 @@
 # Attention
 This very simple sketch shows how to implement a so called *QTouch ADC* one wire touch button.
 I always meant to turn it into a more user-friendly library but never did.
-Fortunately martin2250 did write a library that seems to work very well and even has some advantages over my approach. You can find this lib [here](http://playground.arduino.cc/Code/ADCTouch).
+Fortunately there are now two libraries that seem to work very well and even have some advantages over my approach. You can find these libs [here](https://github.com/NicoHood/AnalogTouch) or [here](http://playground.arduino.cc/Code/ADCTouch).
 
-Please use martin2250's library and concider this code as a relic.
+Please use one of these libraries and concider this code as a relic.
 
 
 # Intro
